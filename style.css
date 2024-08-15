@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* body {
+  width: 1440px;
+} */
+.container {
+  width: 1440px;
+  margin: auto;
+  padding: 0 130px;
+}
+
+.tytle {
+  width: 100%;
+  background-color: #b36050;
+  height: 47px;
+  text-align: center;
+}
+
+.tytle sub {
+  color: #f1d3b9;
+  position: relative;
+  top: 8px;
+}
+
+nav {
+  height: 71px;
+  background-color: #f6f4ec;
+}
+
+.nav__wrapper {
+  padding: 5px 120px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.nav__list ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.nav__list a {
+  text-decoration: none;
+  color: #b4604d;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.logo {
+  height: 56px;
+  width: 120px;
+  position: relative;
+  left: -85px;
+}
+
+.nav__btn button {
+  border: none;
+  color: #b45f4d;
+  background-color: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.nav__btn img {
+  position: relative;
+  top: 5px;
+  width: 59px;
+  height: 25.63px;
+}
+
+.header__back-img {
+}
+.header__back {
+  background-image: url(./IMAGES/header\ back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  height: 435px;
+}
+
+.cta {
+  background-color: #a9ae8d;
+  background-size: cover;
+  height: 304px;
+  text-align: center;
+}
+
+.cta sub {
+  color: #f6f4ec;
+  position: relative;
+  top: 69px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+
+.cta h1 {
+  position: relative;
+  top: 113px;
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 64px;
+  color: #f6f4ec;
+}
+
+.cta button {
+  position: relative;
+  top: 130px;
+  width: 128px;
+  height: 48px;
+  border: none;
+  background-color: #b45f4d;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* PICK SECTION  */
+
+#pick {
+  background-color: #f6f4ec;
+}
+
+.pick__title {
+  text-align: center;
+}
+.pick__title h2 {
+  padding-top: 39px;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 39.2px;
+  color: #b45f4d;
+}
+
+.pick__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 73px;
+}
+.wrapper {
+  margin-top: 50px;
+}
+
+/* .pick__wrapper img {
+    width: 340px;
+    height: 510px;
+} */
+.pick__wrapper h3 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  color: #b45f4d;
+  margin: 35px 0 20px 0;
+}
+.pick__wrapper p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #b45f4d;
+  /* margin-bottom: 30px; */
+}
+
+.sides {
+  width: 100%;
+  margin-top: -50px;
+}
+
+.left__img {
+  margin-left: 1030px;
+}
+
+/* SHOP SECTION  */
+
+.shop__sets {
+  background-image: url(./IMAGES/Shop\ sets.png);
+  height: 407.55px;
+}
+
+.shop__sets__feel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 92px;
+  background-color: #df9b7a;
+  color: #f6f4ec;
+  position: relative;
+  top: 250px;
+  align-items: center;
+  padding: 30px;
+  margin: 34px 0 ;
+}
+
+.shop__sets__feel p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.shop__sets__feel button {
+  border: none;
+  background-color: inherit;
+  font-family: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #f6f4ec;
+}
+
+/* MEET SECTION   */
+
+#meet {
+  background-color: #f1d3b9;
+  height: 914px;
+  margin-top: 46px;
+}
+
+.meet__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 204px;
+}
+
+.meet__img,
+.meet__content {
+  width: calc(50% - 102px);
+  margin: 97px 0 67px 0;
+  height: 750px;
+}
+
+.meet__content {
+  background-color: #f8f8f8;
+  color: #b45f4d;
+  padding: 134px 42px;
+}
+
+.meet__content h2 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 57.6px;
+  text-align: center;
+}
+
+.meet__content p {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30.4px;
+  margin: 22px 0 41px 0;
+}
+
+.meet__content button {
+  border: none;
+  background-color: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  color: #b45f4d;
+  cursor: pointer;
+}
